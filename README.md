@@ -16,7 +16,7 @@ The given dataset contains telematics data during trips (bookingID). Each trip w
 # About the Repository
 
 ### Notebook
-The notebook `safety_challenge_xmpuspus.ipynb` is the main notebook for the challenge. It contains codes for loading the data, feature engineering, model training, model scoring and hold-out scoring.
+The notebook `safety_challenge_xmpuspus.ipynb` is the main notebook for the challenge. It contains codes for loading the data, feature engineering, model training, model scoring and hold-out scoring. To run the notebook, please place the dataset in the `data/safety/` folder in their corresponding directories.
 
 ### Folders
 The folder `data/` contains all data used for this challenge. It contains the `safety` folder as downloaded from the grab AIforSEA Safety Challenge. The folder `model/` contains the pickled trained model should the examiner choose to just measure on holdout set. Please see last section of this ReadMe for details on how to model on holdout set. 
